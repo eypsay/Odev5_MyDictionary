@@ -13,7 +13,7 @@ namespace MyDictionary
             courses.Add(201, "Java");
             courses.Add(202, "OOP");
 
-            Console.WriteLine(courses.Len);
+            Console.WriteLine("Count of items in Mydictionary: "+courses.Len);
             foreach (var item in courses.Keys)
             {
                 Console.WriteLine("Keys:"+item);
